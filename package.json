@@ -11,9 +11,12 @@
     "browserify"
   ],
   "repository": {
-    "url": "git@github.com:bud-plugins\/bud-concat.git",
+    "url": "git@github.com:bud-plugins/bud-concat.git",
     "type": "git"
   },
   "author": "azer",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "concat": "^1.0.0"
+  }
 }

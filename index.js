@@ -9,7 +9,7 @@ plugin.params = [
 module.exports = plugin;
 
 function plugin (dest) {
-  function (b) {
+  return function (b) {
     concat(b.files, dest, b.done);
   }
 }
