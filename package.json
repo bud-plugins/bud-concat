@@ -1,6 +1,6 @@
 {
   "name": "bud-concat",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Concatenation plugin for Bud",
   "main": "index.js",
   "scripts": {
