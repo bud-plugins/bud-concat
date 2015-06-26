@@ -1,0 +1,19 @@
+{
+  "name": "bud-concat",
+  "version": "0.0.0",
+  "description": "Concatenation plugin for Bud",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "bud",
+    "browserify"
+  ],
+  "repository": {
+    "url": "git@github.com:bud-plugins\/bud-concat.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD"
+}
