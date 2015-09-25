@@ -3,13 +3,13 @@ var concat = require("concat");
 plugin.build = true;
 plugin.title = 'Concat';
 plugin.params = [
-  'Destination file'
+  { key: 'dest', name: 'Destination file' }
 ];
 
 module.exports = plugin;
 
-function plugin (dest) {
+function plugin (options) {
   return function (b) {
-    concat(b.files, dest, b.done);
+    concat(b.files, options.dest, b.done);
   }
 }

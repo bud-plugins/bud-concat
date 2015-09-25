@@ -10,7 +10,13 @@ $ npm install bud-concat
 
 ## Usage
 
- ```js
+```js
+var build = require('bud');
+var babelify = require('bud-babelify');
+
+build("dist/build.js", babelify({ dest: "dist/build.js" }));
 ```
 
+## Options
 
+* dest
